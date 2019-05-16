@@ -3,7 +3,13 @@
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
-					<content></content>
+					<content>
+						<Image
+							src="images/MoviesHeader.png"
+							width="100%"
+							alt="Movies">
+						</Image>
+					</content>
 				</Page>
 			</pages>
 		</App>
