@@ -10,6 +10,19 @@
 							alt="Movies">
 						</Image>
 					</content>
+					<footer>
+						<OverflowToolbar>
+							<ToolbarSpacer/>
+							<Link
+								text="{i18n>movieDatabaseLink}"
+								enabled="true"
+								target="_blank"
+								width=""
+								href="https://www.imdb.com/">
+							</Link>
+							<ToolbarSpacer/>
+						</OverflowToolbar>
+					</footer>
 				</Page>
 			</pages>
 		</App>
