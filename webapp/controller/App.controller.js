@@ -6,6 +6,11 @@ sap.ui.define([
 	return Controller.extend("oj.movies.controller.App", {
 		onInit: function () {
 
+		},
+		onPressFindMovies: function (sCity, oEvent){
+			sap.ui.require(["sap/m/MessageToast"], function(Toast){
+				Toast.show("Searching...");
+			});
 		}
 	});
 });
