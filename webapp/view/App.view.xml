@@ -52,7 +52,7 @@
                             <Button text="{i18n>buttonMovieSearch}" 
                                 class="sapUiSmallMarginTop" 
                                 type="Emphasized" 
-                                press="onPressFindMovies('city')" />
+                                press=".findMovies" />
                         </f:SimpleForm>
                         <PlanningCalendar id="calendar" 
                             startDate="{path: 'movies>/initDate', formatter: '.formatter.formatDate'}" 
