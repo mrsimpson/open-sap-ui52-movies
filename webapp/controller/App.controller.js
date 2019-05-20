@@ -1,9 +1,15 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
-], function (Controller) {
+	"sap/ui/core/mvc/Controller",
+	"sap/base/Log",
+	"../model/formatter"
+], function (Controller, Log, formatter) {
 	"use strict";
 
 	return Controller.extend("oj.movies.controller.App", {
+
+		// publish the formatter namespace to the view
+		formatter,
+
 		onInit: function () {
 
 		},

@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "ui5 serve",
+    "start": "ui5 serve -p 3003",
     "lint": "eslint webapp",
     "karma": "karma start",
     "karma-ci": "karma start karma-ci.conf.js",

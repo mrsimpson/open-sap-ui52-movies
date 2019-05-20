@@ -56,14 +56,16 @@
 				"settings": {
 					"bundleName": "oj.movies.i18n.i18n"
 				}
+			},
+			"movies": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "model/Movies.json"
 			}
 		},
 		"resources": {
-			"css": [
-				{
-					"uri": "css/style.css"
-				}
-			]
+			"css": [{
+				"uri": "css/style.css"
+			}]
 		},
 		"routing": {
 			"config": {
@@ -75,15 +77,13 @@
 				"controlId": "app",
 				"clearControlAggregation": false
 			},
-			"routes": [
-				{
-					"name": "RouteApp",
-					"pattern": "RouteApp",
-					"target": [
-						"TargetApp"
-					]
-				}
-			],
+			"routes": [{
+				"name": "RouteApp",
+				"pattern": "RouteApp",
+				"target": [
+					"TargetApp"
+				]
+			}],
 			"targets": {
 				"TargetApp": {
 					"viewType": "XML",
